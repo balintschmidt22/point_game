@@ -63,4 +63,3 @@ npm run build
 ```sh
 npm run lint
 ```
-"# point_game" 

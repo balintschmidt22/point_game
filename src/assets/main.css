@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+#canvas {
+  border: 2px solid black;
+  display: block;
+  background: rgb(241, 240, 240);
+}
+#canvas_div,
+#button_div,
+#title_div,
+#instruction_div {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#button_div > * {
+  display: inline-block;
+}
+#button_div > :not(:first-child) {
+  margin-left: 20px;
+}
+#instruction_div {
+  height: 6vh;
+}
+#gameDone {
+  color: green;
+}
